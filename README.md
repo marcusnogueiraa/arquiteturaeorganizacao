@@ -1,6 +1,6 @@
 # **💻 Assembly x86 - Arquitetura e Organização de Computadores I**
 
-Repositório para os Exercícios da disciplina "Arquitetura e Organização de Computadores" utilizando Assembly x86
+Repositório para os Exercícios da disciplina "Arquitetura e Organização de Computadores" utilizando Assembly x86 MASM
 
 > <p><b>Aluno:</b> André Alves de Freitas - 540683</p>
 > <p><b>Aluno:</b> Marcus Vinicius Alves Nogueira - 540230</p>
@@ -12,4 +12,15 @@ Repositório para os Exercícios da disciplina "Arquitetura e Organização de C
 - Exercicios em código estarão escritos em arquivos ".asm"
 - Exercicios Teóricos estarão no arquivo MARKDOWN ".md"
 
-<img src="https://media.tenor.com/29Ok5pc0ivAAAAAd/gatinho-gato.gif">
+## **🎲 Progresso**
+
+- [ ] 01 - Variables, Registers, and Data Movement [AP 01]
+- [ ] 02 - Input/Output [AP 01]
+- [ ] 03 - Arithmetic Instructions [AP 01]
+- [ ] 04 - Selection Structures
+- [ ] 05 - Iteration Structures
+- [ ] 06 - Logic, Shifting, Rotating, and Stacks
+- [ ] 07 - Procedures and Macros
+- [ ] 08 - Arrays
+- [ ] 09 - Strings
+- [ ] 10 - Selected Machine Language Instructions
