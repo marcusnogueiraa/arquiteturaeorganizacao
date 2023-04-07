@@ -16,9 +16,11 @@
 
 ```
 A.
-B.
+B. Errada, nâo existe a opção mov mem,mem.
 C.
-D.
+D.Correto.
 E.
-F.
+F.Correto.
+G.Errado, o certo era pra ser "mov rat,eax" sem o sinal de "-".
+H.
 ```
