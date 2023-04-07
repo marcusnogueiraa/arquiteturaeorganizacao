@@ -14,9 +14,9 @@
 
 ```
 A. 
-B. 
+B. Errado, pois não começou com uma letra.
 C. 
-D.
-E.
+D. Errado, pois não começou com uma letra.
+E. Errado, pois não começou com uma letra.
 F.
 ```
