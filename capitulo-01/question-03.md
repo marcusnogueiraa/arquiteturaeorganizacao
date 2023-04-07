@@ -16,7 +16,7 @@
 
 ```
 A.
-B. Errada, nâo existe a opção mov mem,mem.
+B.Errada, nâo existe a opção mov mem,mem.
 C.
 D.Correto.
 E.
