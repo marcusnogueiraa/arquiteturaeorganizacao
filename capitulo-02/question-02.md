@@ -16,11 +16,16 @@ mov num2,eax
 **O que está de errado com a lógica do código:**
 
 ```
-insert response here
+O que está errado nesse código é porque a atribuição
+da variável "num2" vem depois do printf, então não 
+tem garantia que a variável vai sair com o valor esperado.
 ```
 
 **Código reescrito:**
 
 ```asm
-; insert code here
+mov num1,5
+mov eax,num1
+mov num2,eax
+INVOKE printf, ADDR msg1fmt, ADDR msg1, num2
 ```
