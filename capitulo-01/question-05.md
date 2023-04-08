@@ -17,7 +17,9 @@
 ; insert code here
 ```
 
-**<p>B.** ``mov al,c <br/> mov b,al``</p>
+**<p>B.** ``mov al,c
+
+mov b,al``</p>
 
 ```asm
 ; insert code here
