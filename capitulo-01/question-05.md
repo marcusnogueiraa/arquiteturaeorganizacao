@@ -11,26 +11,30 @@
 
 ## Response
 
-**<p>A.** ``a = 'B';``</p>
+**<p>A.** ````</p>
 
 ```asm
 ; insert code here
 ```
 
-**<p>B.** ``mov al,c
-mov b,al``</p>
+**<p>B.** ``mov al,c <br> mov b,al``</p>
 
 ```asm
 ; insert code here
 ```
 
-**<p>C.** ``d = 'E'; e = d;``</p>
+**<p>C.** ````</p>
 
 ```asm
 ; insert code here
 ```
 
-**<p>D.** ``d = 'z'; a = d; b = a;``</p>
+**<p>D.** ``mov d,'z``</p>
+
+```asm
+; insert code here
+```
+**<p>E.** ````</p>
 
 ```asm
 ; insert code here
