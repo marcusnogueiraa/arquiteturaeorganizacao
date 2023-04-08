@@ -18,7 +18,6 @@
 ```
 
 **<p>B.** ``mov al,c
-
 mov b,al``</p>
 
 ```asm
