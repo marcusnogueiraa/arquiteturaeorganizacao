@@ -7,34 +7,36 @@
 **<p>B.** ``b = c;``</p>
 **<p>C.** ``d = 'E'; e = d;``</p>
 **<p>D.** ``d = 'z'; a = d; b = a;``</p>
-**<p>E.** ``E. a = '2'; b = '?'; a = b;``</p>
+**<p>E.** ``a = '2'; b = '?'; a = b;``</p>
 
 ## Response
 
-**<p>A.** ````</p>
+**<p>A.** ``a = 'B';``</p>
 
 ```asm
 ; insert code here
 ```
 
-**<p>B.** ``mov al,c </br> mov b,al``</p>
+**<p>B.** ``b = c;``</p>
+
+```asm
+; insert code here
+mov al,c
+mov b,al
+```
+
+**<p>C.** ``d = 'E'; e = d;``</p>
 
 ```asm
 ; insert code here
 ```
 
-**<p>C.** ````</p>
+**<p>D.** ``d = 'z'; a = d; b = a;``</p>
 
 ```asm
 ; insert code here
 ```
-
-**<p>D.** ``mov d,'z``</p>
-
-```asm
-; insert code here
-```
-**<p>E.** ````</p>
+**<p>E.** ``a = '2'; b = '?'; a = b;``</p>
 
 ```asm
 ; insert code here
