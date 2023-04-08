@@ -4,9 +4,10 @@
 
 **<p>5. Assuming all the variables are declared as byte, write assembly language instructions to implement each of the following C statements or segments:</p>**
 **<p>A.** ``a = 'B';``</p>
-**<p>B.** ``b = 'c';``</p>
+**<p>B.** ``b = c;``</p>
 **<p>C.** ``d = 'E'; e = d;``</p>
 **<p>D.** ``d = 'z'; a = d; b = a;``</p>
+**<p>E.** ``E. a = '2'; b = '?'; a = b;``</p>
 
 ## Response
 
@@ -16,7 +17,8 @@
 ; insert code here
 ```
 
-**<p>B.** ``b = 'c';``</p>
+**<p>B.** ``mov al,c
+  mov b,al``</p>
 
 ```asm
 ; insert code here
