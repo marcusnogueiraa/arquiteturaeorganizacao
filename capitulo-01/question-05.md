@@ -20,7 +20,7 @@
 **<p>B.** ``b = c;``</p>
 
 ```asm
-; insert code here
+;
 mov al,c
 mov b,al
 ```
@@ -34,7 +34,12 @@ mov b,al
 **<p>D.** ``d = 'z'; a = d; b = a;``</p>
 
 ```asm
-; insert code here
+;
+mov d,'z'
+mov al,d
+mov a,al
+mov b,al
+
 ```
 **<p>E.** ``a = '2'; b = '?'; a = b;``</p>
 
