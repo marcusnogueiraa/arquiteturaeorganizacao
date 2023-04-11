@@ -15,35 +15,36 @@
 **<p>A.** ``char initial;``</p>
 
 ```asm
-; insert response here
+initial byte ?
 ```
 
 **<p>B.** ``char grade = 'B';``</p>
 
 ```asm
-; insert response here
+grade byte 'B'
 ```
 
 **<p>C.** ``char x = 'P', y = 'Q';``</p>
 
 ```asm
-; insert response here
+x byte 'P'
+y byte 'Q'
 ```
 
 **<p>D.** ``int amount;``</p>
 
 ```asm
-; insert response here
+amount sdword ?
 ```
 
 **<p>E.** ``int count = 0;``</p>
 
 ```asm
-; insert response here
+count sdword 0
 ```
 
 **<p>F.** ``int number = -396;``</p>
 
 ```asm
-; insert response here
+number sdword -396
 ```
