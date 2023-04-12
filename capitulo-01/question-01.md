@@ -13,10 +13,10 @@
 ## Response
 
 ```
-A. 
-B. Errado, pois não começou com uma letra.
-C. 
-D. Errado, pois não começou com uma letra.
-E. Errado, pois não começou com uma letra.
-F.
+A. Correto
+B. Errado, não pode começar com numeros.
+C. Correto
+D. Correto
+E. Correto
+F. Errado, não é permitido utilizar o caractere "."
 ```
