@@ -15,12 +15,12 @@
 ## Response
 
 ```
-A.
-B.Errada, nâo existe a opção mov mem,mem.
-C.
-D.Correto.
-E.
-F.Correto.
-G.Errado, o certo era pra ser "mov rat,eax" sem o sinal de "-".
-H.
+A. Errado, o certo é "mov", não "move".
+B. Errado, nâo existe a opção mov mem,mem.
+C. Correto.
+D. Correto.
+E. Incorreto, não faz sentido mover o valor de frog para a constante 1.
+F. Correto.
+G. Errado, não é correto utilizar "mov rat,-eax", para negar o valor de eax, utilize neg eax antes.
+H. Correto.
 ```
