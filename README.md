@@ -14,7 +14,7 @@ Repositório para os Exercícios da disciplina "Arquitetura e Organização de C
 
 ## **🎲 Progresso**
 
-- [ ] 01 - Variables, Registers, and Data Movement [AP 01]
+- [x] 01 - Variables, Registers, and Data Movement [AP 01]
 - [ ] 02 - Input/Output [AP 01]
 - [ ] 03 - Arithmetic Instructions [AP 01]
 - [ ] 04 - Selection Structures
