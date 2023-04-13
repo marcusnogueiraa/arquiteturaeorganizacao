@@ -13,7 +13,7 @@
 
 ```
 A. Correto.
-B. Correto*
+B. Depende, o código não causa erro de Compilação, mas se o objetivo é usar "\n" como quebra de linha, está incorreto.
 C. Incorreto, exclua ADDR antes de number.
 D. Correto.
 E. Incorreto, esse '\n' não faz sentido, o correto seria 0Ah para quebra de linha.
