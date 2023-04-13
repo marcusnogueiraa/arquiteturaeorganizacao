@@ -19,7 +19,18 @@ Enter an even larger number: 5
 
 **Primeiramente o código em Linguagem C:**
 ```c
-// era pra ter um código aqui, um dia terá.
+#include <stdio.h>
+int main(){
+    int num1, num2, num3;
+    printf("informe um numero:\n");
+    scanf("%d",&num1);
+    printf("informe um numero maior:\n");
+    scanf("%d",&num2);
+    printf("informe um numero maior ainda:\n");
+    scanf("%d",&num3);
+    printf("%d > %d > %d", num3, num2, num1);
+    return 0;
+}
 ```
 
 **Como pede o exercicio, após criar o código em C, iremos implementar no Assembly.**
