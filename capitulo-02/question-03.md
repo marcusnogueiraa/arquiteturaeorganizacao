@@ -33,5 +33,8 @@ main    endp
 
 **Output:**
 ```
-insert response here
+x = 1 y = 2
+
+
+z=3
 ```
