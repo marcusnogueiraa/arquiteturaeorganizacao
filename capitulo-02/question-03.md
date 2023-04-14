@@ -33,8 +33,8 @@ main    endp
 
 **Output:**
 ```
-xb=b1byb=b2
-blank line
-blank line
+x = 1 y = 2
+
+
 z=3
 ```
