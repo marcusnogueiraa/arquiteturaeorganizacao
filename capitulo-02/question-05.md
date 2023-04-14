@@ -11,9 +11,25 @@ int main(){
     x = 1;
     y = 2;
     z = 3;
-    printf("%\n%d%s%d%s%d\n\n", x, " + ", y, " = ", z);
+    printf("\n%d%s%d%s%d\n\n", x, " + ", y, " = ", z);
     return 0;
 }
+```
+
+## Importante
+<p>No livro, código está errado e daria um erro de compilação, por isso foi feito uma correção.<p/>
+
+**Versão do Livro**
+
+```c
+printf(%\n%d%s%d%s%d\n\n", x, " + ", y, " = ", z);
+```
+<br>
+
+**Versão Corrigida**
+
+```c
+printf("\n%d%s%d%s%d\n\n", x, " + ", y, " = ", z);
 ```
 
 ## Response
