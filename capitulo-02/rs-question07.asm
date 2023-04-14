@@ -16,9 +16,9 @@ msg1    byte "informe um numero:", 0
 msg2    byte "informe um numero maior:", 0
 msg3    byte "informe um numero maior ainda:", 0
 msg4    byte " > ", 0
-num1       sdword ?
-num2       sdword ?
-num3       sdword ?
+num1    sdword ?
+num2    sdword ?
+num3    sdword ?
         .code
 main    proc
         INVOKE printf, ADDR msg1fmt, ADDR msg1
