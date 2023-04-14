@@ -18,5 +18,5 @@ B. Correto.
 C.
 D. Errada, não pode usar imediato nessa instrução.
 E.
-F. 
+F. Correto.
 ```
