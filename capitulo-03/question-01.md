@@ -14,9 +14,9 @@
 
 ```
 A. Errada, o certo é inc eax
-B.
+B. Correto.
 C.
-D.
+D. Errada, não pode usar imediato nessa instrução.
 E.
-F.
+F. 
 ```
