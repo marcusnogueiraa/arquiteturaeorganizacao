@@ -8,6 +8,7 @@
 **<p>C.** ``total = num1 / num2 - (num3 ∗ num4);``</p>
 **<p>D.** ``r = -s + t++;``</p>
 **<p>E.** ``m = n ∗ ((i - j) ∗ k);``</p>
+**<p>F.** ``q = a – b + c / d * e;``</p>
 
 
 ## Response
@@ -37,6 +38,11 @@
 ```
 
 **<p>E.** ``m = n ∗ ((i - j) ∗ k);``</p>
+
+```asm
+; insert code here
+```
+**<p>F.** ``q = a – b + c / d * e;``</p>
 
 ```asm
 ; insert code here
