@@ -33,8 +33,8 @@ main    endp
 
 **Output:**
 ```
-x = 1 y = 2
-
-
+xb=b1byb=b2
+blank line
+blank line
 z=3
 ```
