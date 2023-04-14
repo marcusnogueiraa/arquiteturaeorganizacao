@@ -33,9 +33,9 @@ main    endp
 
 **Output:**
 ```
-blank line
-Thebfirstbnumberbisb5,bbutbthebsecondbnumberbisb7,
-blank line
-whilebthebthirdbnumberbisb11
-blank line
+
+The first number is 5, but the second number is 7,
+
+while the third number is 11
+
 ```
