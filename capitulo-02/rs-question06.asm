@@ -10,8 +10,8 @@ scanf   PROTO arg2:Ptr Byte, inputlist:VARARG
         .data
 in1fmt  byte    "%d", 0
 msg0fmt byte    0Ah,"%s",0
-msg1fmt byte    0Ah,"num1 num2",0
-msg2fmt byte    0Ah," %d %d",0Ah,0Ah,0
+msg1fmt byte    0Ah,"num1 num2",0Ah,0Ah,0
+msg2fmt byte    " %d %d",0Ah,0Ah,0
 msg0    byte    "Enter a value for num1: ",0
 msg1    byte    "Enter a value for num2: ",0
 num1    sdword  ?
