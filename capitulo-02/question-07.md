@@ -22,13 +22,14 @@ Enter an even larger number: 5
 #include <stdio.h>
 int main(){
     int num1, num2, num3;
-    printf("informe um numero:\n");
+    printf("Enter a number: ");
     scanf("%d",&num1);
-    printf("informe um numero maior:\n");
+    printf("Enter a larger number: ");
     scanf("%d",&num2);
-    printf("informe um numero maior ainda:\n");
+    printf("Enter an even larger number: ");
     scanf("%d",&num3);
-    printf("%d > %d > %d", num3, num2, num1);
+    printf("\n%d < %d < %d", num1, num2, num3);
+    printf("\n\n%d > %d > %d", num3, num2, num1);
     return 0;
 }
 ```
