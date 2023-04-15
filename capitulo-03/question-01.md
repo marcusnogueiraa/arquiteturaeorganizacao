@@ -13,10 +13,10 @@
 ## Response
 
 ```
-A. Errada, o certo é inc eax
+A. Incorreto, inc é uma instrução unária.
 B. Correto.
-C.
-D. Errada, não pode usar imediato nessa instrução.
-E.
-F. Errada, da erro quando usa o eax.
+C. Incorreto, não pode relizar operação entre dois valores da memória.
+D. Incorreto, não pode usar imediato nessa instrução.
+E. Incorreto, não pode subtrair para um valor imediato (sub number,2 é permitido).
+F. Correto.
 ```
