@@ -15,29 +15,43 @@
 **<p>A.** ``--i;``</p>
 
 ```asm
-; insert code here
+dec i
 ```
 
 **<p>B.** ``j = ++k - m;``</p>
 
 ```asm
-; insert code here
+inc k
+mov eax,k
+sub eax,m
+mov j,eax
 ```
 
 **<p>C.** ``z = -(x + y);``</p>
 
 ```asm
-; insert code here
+mov eax,x
+add eax,y
+neg eax
+mov z,eax
 ```
 
 **<p>D.** ``a = ++b - c++;``</p>
 
 ```asm
-; insert code here
+inc b
+mov eax,b
+sub eax,c
+inc c
+mov a,eax
 ```
 
 **<p>E.** ``x = -y + z--;``</p>
 
 ```asm
-; insert code here
+mov eax,y
+neg eax
+add eax,z
+dec z
+mov x,eax
 ```
