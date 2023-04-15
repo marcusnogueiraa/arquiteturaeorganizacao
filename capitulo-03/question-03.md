@@ -34,7 +34,13 @@
 **<p>D.** ``r = -s + t++;``</p>
 
 ```asm
-; insert code here
+ mov eax,h
+ mov ebx,3
+ cdq
+ idiv ebx
+ mov ebx, b
+ sub ebx,eax
+ mov a,ebx
 ```
 
 **<p>E.** ``m = n ∗ ((i - j) ∗ k);``</p>
