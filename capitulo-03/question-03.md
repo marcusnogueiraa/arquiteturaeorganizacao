@@ -13,10 +13,17 @@
 
 ## Response
 
-**<p>A.** ``x = x ∗ y+z ∗ 2;``</p>
+**<p>A.** ``x = x ∗ y + z ∗ 2;``</p>
 
 ```asm
-; insert code here
+mov eax,x
+imul y
+mov ecx,eax
+mov eax,z
+mov ebx,2
+imul ebx
+add ecx,eax
+mov x,ecx 
 ```
 
 **<p>B.** ``a = b - c / 3;``</p>
@@ -26,7 +33,7 @@
  mov ebx,3
  cdq
  idiv ebx
- mov ebx, b
+ mov ebx,b
  sub ebx,eax
  mov a,ebx
 ```
@@ -34,16 +41,23 @@
 **<p>C.** ``total = num1 / num2 - (num3 ∗ num4);``</p>
 
 ```asm
-; insert code here
+mov eax,num3
+imul num4
+mov ebx,eax
+mov eax,num1
+cdq
+idiv num2
+sub eax,ebx
+mov total,eax
 ```
 
 **<p>D.** ``r = -s + t++;``</p>
 
 ```asm
-inc t
+neg s
 mov eax,s
-neg eax
 add eax,t
+inc t
 mov r,eax
 ```
 
