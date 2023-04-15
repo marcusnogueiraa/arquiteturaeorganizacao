@@ -40,15 +40,31 @@
 **<p>D.** ``r = -s + t++;``</p>
 
 ```asm
+inc t
+neg s
+mov eax,s
+add eax,t
+mov r,eax
 ```
 
 **<p>E.** ``m = n ∗ ((i - j) ∗ k);``</p>
 
 ```asm
-; insert code here
+mov eax,i
+sub eax,j
+cdq
+imul k
+imul n
+mov m,eax
 ```
 **<p>F.** ``q = a – b + c / d * e;``</p>
 
 ```asm
-; insert code here
+mov eax,c
+cdq
+idiv d
+imul e
+sub eax,b
+add eax,a
+mov q,eax
 ```
