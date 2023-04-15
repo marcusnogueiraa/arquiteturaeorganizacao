@@ -41,8 +41,8 @@
 
 ```asm
 inc t
-neg s
 mov eax,s
+neg eax
 add eax,t
 mov r,eax
 ```
