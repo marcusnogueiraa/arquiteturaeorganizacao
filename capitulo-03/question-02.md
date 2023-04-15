@@ -14,23 +14,35 @@
 **<p>A.** ``product = 3 ∗ number;``</p>
 
 ```asm
-; insert code here
+mov eax,3
+imul number
+mov product,eax
 ```
 
 **<p>B.** ``result = number % amount;``</p>
 
 ```asm
-; insert code here
+mov eax,number
+cdq
+mov ebx,amount
+idiv ebx
+mov result,edx
 ```
 
 **<p>C.** ``answer = number / 2;``</p>
 
 ```asm
-; insert code here
+mov eax,number
+mov ebx,2
+cdq
+idiv ebx
+mov answer,eax
 ```
 
 **<p>D.** ``difference = 4 - number;``</p>
 
 ```asm
-; insert code here
+mov eax,4
+sub eax,number
+mov difference,eax
 ```
