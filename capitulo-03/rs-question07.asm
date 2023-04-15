@@ -29,4 +29,4 @@ main    proc
         INVOKE printf, ADDR msg3fmt, ADDR msg3, Celsius
         ret
 main    endp
-	      end
+	end
