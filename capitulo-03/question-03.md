@@ -54,8 +54,8 @@ mov total,eax
 **<p>D.** ``r = -s + t++;``</p>
 
 ```asm
-neg s
 mov eax,s
+neg eax
 add eax,t
 inc t
 mov r,eax
