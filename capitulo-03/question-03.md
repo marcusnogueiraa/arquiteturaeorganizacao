@@ -22,7 +22,13 @@
 **<p>B.** ``a = b - c / 3;``</p>
 
 ```asm
-; insert code here
+ mov eax,c
+ mov ebx,3
+ cdq
+ idiv ebx
+ mov ebx, b
+ sub ebx,eax
+ mov a,ebx
 ```
 
 **<p>C.** ``total = num1 / num2 - (num3 ∗ num4);``</p>
@@ -34,13 +40,6 @@
 **<p>D.** ``r = -s + t++;``</p>
 
 ```asm
- mov eax,h
- mov ebx,3
- cdq
- idiv ebx
- mov ebx, b
- sub ebx,eax
- mov a,ebx
 ```
 
 **<p>E.** ``m = n ∗ ((i - j) ∗ k);``</p>
