@@ -1,5 +1,7 @@
 # Questão 04 - Capítulo 03
 
+> Correção: 0,5
+
 ## Question
 
 **<p>4. Using the order of operations from C, convert the following arithmetic statements into the equivalent assembly language code segment. Be careful to implement the unary minus sign, increment, and decrement operators carefully:</p>**

@@ -1,7 +1,7 @@
 ;
 ;   Building Instructions:
 ;   ml /Cx /coff rs-question07.asm /link /SUBSYSTEM:console /out:a.exe kernel32.lib legacy_stdio_definitions.lib msvcrt.lib
-;
+; Correção: 1,0
         .686
         .model flat, c
         .stack 100h
@@ -15,7 +15,7 @@ msg3fmt byte 0Ah,"%s%d",0Ah,0Ah,0
 msg3	byte "The degrees in celsius is: ",0
 Fahrenheit sdword ?
 Celsius sdword ?
-	      .code
+	.code
 main    proc
         INVOKE printf, ADDR msg1fmt, ADDR msg1
         INVOKE scanf, ADDR ini1fmt, ADDR Fahrenheit

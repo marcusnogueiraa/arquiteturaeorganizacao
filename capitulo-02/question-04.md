@@ -1,5 +1,7 @@
 # Questão 04 - Capítulo 02
 
+> Correção: 0,5
+
 ## Question
 
 **<p>4. Given the following MASM program, what will be output to the screen. Be sure to line everything up properly. Use a lowercase letter b to represent a blank and the words blank line to represent a blank line:</p>**

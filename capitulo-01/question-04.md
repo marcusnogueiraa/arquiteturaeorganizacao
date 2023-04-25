@@ -1,5 +1,7 @@
 # Questão 04 - Capítulo 01
 
+>  Correção: 0,4
+
 ## Question
 
 **<p>4. Assuming all the variables are declared as sdword, write assembly language instructions to implement each of the following C statements or segments:</p>**

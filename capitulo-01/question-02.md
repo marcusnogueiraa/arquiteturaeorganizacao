@@ -1,5 +1,7 @@
 # Questão 02 - Capítulo 01
 
+> Correção: 0,4
+
 ## Question
 
 **<p>2. Implement each of the following declarations in assembly language:</p>**

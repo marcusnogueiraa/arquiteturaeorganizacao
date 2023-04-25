@@ -1,5 +1,7 @@
 # Questão 05 - Capítulo 01
 
+> Correção: 0,4
+
 ## Question
 
 **<p>5. Assuming all the variables are declared as byte, write assembly language instructions to implement each of the following C statements or segments:</p>**

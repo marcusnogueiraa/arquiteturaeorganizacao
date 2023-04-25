@@ -1,4 +1,5 @@
 # Questão 02 - Capítulo 03
+> Correção: 0,5
 
 ## Question
 

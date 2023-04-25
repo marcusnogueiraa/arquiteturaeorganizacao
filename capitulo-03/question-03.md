@@ -1,5 +1,7 @@
 # Questão 03 - Capítulo 03
 
+> Correção: 0,5
+
 ## Question
 
 **<p>3. Using order of operations from C, convert the following arithmetic statements into the equivalent assembly language statements. Be sure not to destroy the contents of any of the variables that appear only to the right of the assignment symbol:</p>**

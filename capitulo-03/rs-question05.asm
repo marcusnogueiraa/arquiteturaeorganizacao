@@ -1,7 +1,7 @@
 ;
 ;   Building Instructions:
 ;   ml /Cx /coff rs-question05.asm /link /SUBSYSTEM:console /out:a.exe kernel32.lib legacy_stdio_definitions.lib msvcrt.lib
-;
+; Correção: 0,5
         .686
         .model  flat, c
         .stack  100h

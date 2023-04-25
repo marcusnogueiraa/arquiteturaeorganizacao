@@ -2,6 +2,8 @@
 
 ## Question
 
+> Correção: 0,4
+
 **<p>3. Assuming that the variables have been declared properly, indicate whether the following statements are syntactically correct or incorrect. If incorrect, indicate what is wrong with the statement:</p>**
 **<p>A.** ``move cat,5``</p>
 **<p>B.** ``mov dog,cat``</p>

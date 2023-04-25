@@ -1,5 +1,7 @@
 # Questão 01 - Capítulo 03
 
+> Correção: 0,5
+
 ## Question
 
 **<p>1. Indicate whether the following statements are syntactically correct or incorrect. If incorrect, indicate what is wrong with the statement:</p>**
