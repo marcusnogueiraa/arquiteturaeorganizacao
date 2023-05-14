@@ -26,7 +26,7 @@ sub eax,1
 mov a,eax
 .else
 mov eax,b
-.if b >= c
+.if eax >= c
 sub eax,2
 mov b,eax
 .else
@@ -43,5 +43,4 @@ mov d,eax
 .endif
 .endif
 .endif
-
 ```
