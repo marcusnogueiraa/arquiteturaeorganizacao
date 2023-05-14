@@ -20,5 +20,28 @@ else
 ## Response
 
 ```asm
-; insert code here
+mov eax,a
+.if eax > b
+sub eax,1
+mov a,eax
+.else
+mov eax,b
+.if b >= c
+sub eax,2
+mov b,eax
+.else
+mov eax,c
+.if eax > d
+add eax,d
+mov c,eax
+.else
+mov eax,d
+cdq
+mov ebx,2
+idiv ebx
+mov d,eax
+.endif
+.endif
+.endif
+
 ```
