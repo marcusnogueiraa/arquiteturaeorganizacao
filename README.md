@@ -24,3 +24,20 @@ Repositório para os Exercícios da disciplina "Arquitetura e Organização de C
 - [ ] 08 - Arrays
 - [ ] 09 - Strings
 - [ ] 10 - Selected Machine Language Instructions
+
+## **🏆 Notas da Disciplina**
+  
+  <table>
+  <tr>
+    <th>AP 1</th>
+    <th>AP 2</th>
+    <th>AP 3</th>
+    <th>MF</th>
+  </tr>
+  <tr>
+    <td>10.00</td>
+    <td>??</td>
+    <td>??</td>
+    <td>3.33*</td>
+  </tr>
+</table>
