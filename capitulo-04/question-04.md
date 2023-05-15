@@ -55,5 +55,37 @@ mov d,eax
 
 **B.**
 ```asm
-; insert code here
+mov eax,a
+if01:   cmp eax,b
+        jle if02
+then01: sub eax,1
+        mov a,eax
+endif01:nop
+if02:   cmp eax,b
+        jg endif02
+then02: mov eax,b
+if03:   cmp eax,c
+        jl if04
+then03: sub eax,2
+        mov b,eax
+        jmp endif02
+endif03:nop
+if04:   cmp eax,c
+        jge endif04
+then04: mov eax,c
+if05:   cmp eax,d
+        jle if06
+then05: add eax,d
+        mov c,eax
+endif05:nop
+if06:   cmp eax,d
+        jg endif06
+        mov eax,d
+        cdq
+        mov ebx,2
+        idiv ebx
+        mov d,eax
+endif06:nop
+endif04:nop
+endif02:nop
 ```
