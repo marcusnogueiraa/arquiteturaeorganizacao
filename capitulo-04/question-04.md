@@ -55,7 +55,7 @@ mov d,eax
 
 **B.**
 ```asm
-mov eax,a
+        mov eax,a
 if01:   cmp eax,b
         jle if02
 then01: sub eax,1
