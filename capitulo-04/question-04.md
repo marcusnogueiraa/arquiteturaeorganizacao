@@ -25,7 +25,32 @@ else
 
 **A.**
 ```asm
-; insert code here
+mov eax,a
+.if eax > b
+sub eax,1
+mov a,eax
+.endif
+.if eax <= b
+mov eax,b
+.if eax >= c
+sub eax,2
+mov b,eax
+.endif
+.if eax < c
+mov eax,c
+.if eax > d
+add eax,d
+mov c,eax
+.endif
+.if eax <= d
+mov eax,d
+cdq
+mov ebx,2
+idiv ebx
+mov d,eax
+.endif
+.endif
+.endif
 ```
 
 **B.**
