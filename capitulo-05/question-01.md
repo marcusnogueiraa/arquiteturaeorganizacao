@@ -46,10 +46,10 @@ mov ebx,2
 ## Response
 
 ```
-A.
+A. Incorreto, .for e .endfor não existe em MASM.
 B. Correto, mas poderíamos usar um registrador no lugar de i para melhor
 desempenho.
-C.
-D. Errado, não existe a diretiva ".untiledx".
-E. Errado, não existe a diretiva ".do".
+C. Correto.
+D. Incorreto, não existe a diretiva ".untiledx".
+E. Incorreto, não existe a diretiva ".do".
 ```
