@@ -34,8 +34,8 @@ endif01:  nop
 ## Response
 
 ```
-A.
-B.
-C.
-D.
+A. Incorreto, utilize "==" para comparação entre dois valores.
+B. Incorreto, "then" não é um comando válido.
+C. Depende, está sintaticamente correto, mas não faz sentido logicamente.
+D. Incorreto, não é possivel utilizar o "cmp" entre dois operandos da memoria
 ```
