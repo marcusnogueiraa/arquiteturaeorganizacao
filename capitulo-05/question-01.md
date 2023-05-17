@@ -50,6 +50,6 @@ A.
 B. Correto, mas poderíamos usar um registrador no lugar de i para melhor
 desempenho.
 C.
-D.
-E.
+D. Errado, não existe a diretiva ".untiledx".
+E. Errado, não existe a diretiva ".do".
 ```
