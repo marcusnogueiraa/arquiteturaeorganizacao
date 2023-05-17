@@ -47,7 +47,8 @@ mov ebx,2
 
 ```
 A.
-B.
+B. Correto, mas poderíamos usar um registrador no lugar de i para melhor
+desempenho.
 C.
 D.
 E.
