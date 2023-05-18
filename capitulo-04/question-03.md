@@ -42,10 +42,10 @@ endif01: nop
 
 **B.**
 ```asm
-if01:		 cmp num,0
-		     jle then01
-		     cmp num,3
-		     jle endif01
+if01:	 cmp num,0 
+	 jle then01
+	 cmp num,3
+	 jle endif01
 then01:	 sub count,2
 endif01: nop
 ```
@@ -65,13 +65,13 @@ endif01: nop
 **D.**
 ```asm
 if01:    cmp b,2
-		     jne or01
-		     cmp c,3
-		     jg then01
-or01:	   cmp a,1
-		     je then01
-		     cmp d,4		
-		     jnle endif01
+	 jne or01
+	 cmp c,3
+	 jg then01
+or01:	 cmp a,1
+	 je then01
+	 cmp d,4		
+	 jnle endif01
 then01:	 dec e
 endif01: nop
 ```
