@@ -34,5 +34,16 @@ inc eax
 
 **C.** .repeat - .untilcxz
 ```asm
-; insert response here
+mov edx,eax
+mov eax,0
+mov ecx, 1
+.if edx >= ebx
+.repeat
+sub edx, ebx
+inc eax
+.if edx >= ebx
+inc ecx
+.endif
+.untilcxz
+.endif
 ```
