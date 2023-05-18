@@ -41,15 +41,15 @@ endwhile06: nop
 
 **A.**
 ```
-insert response here
+executa o body loop três vezes.
 ```
 
 **B.**
 ```
-insert response here
+executa o body loop apenas uma vez.
 ```
 
 **C.**
 ```
-insert response here
+não executa o body loop nenhuma vez.
 ```
