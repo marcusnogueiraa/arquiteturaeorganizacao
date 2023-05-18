@@ -17,5 +17,18 @@ switch number {
 ## Response
 
 ```asm
-; insert response here
+switch01:    cmp w,0
+             je case11
+             cmp w,1
+             je case11
+             cmp w,2
+             je case12
+             cmp w,3
+             je case12
+             jmp endswitch01
+case11:      add count,2
+             jmp endswitch01
+case12:      sub count,2
+             jmp endswitch01
+endswitch01: nop
 ```
