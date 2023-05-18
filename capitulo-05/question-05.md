@@ -12,12 +12,24 @@
 
 **A.** .while
 ```asm
-; insert response here
+mov edx,eax
+mov eax,0
+.while(edx >= ebx)
+sub edx, ebx
+inc eax
+.endw
 ```
 
 **B.** .repeat - .until
 ```asm
-; insert response here
+mov edx,eax
+mov eax,0
+.if edx >= ebx
+.repeat
+sub edx,ebx
+inc eax
+.until edx < ebx
+.endif
 ```
 
 **C.** .repeat - .untilcxz
