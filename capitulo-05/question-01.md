@@ -2,20 +2,18 @@
 
 ## Question
 
+**<p>1. Given the following assembly language statements, indicate whether they are syntactically correct or incorrect. If incorrect, indicate what is wrong with the statement:</p>**
 
-**<p>1. Given the following assembly language statements, indicate whether they are
-syntactically correct or incorrect. If incorrect, indicate what is wrong with the
-statement:</p>**
 **A.**
  ```asm
-.for i 1;i< 3;i++
+.for i=1;i<=3;i++
 ;body of loop
 .endfor
 ```
 **B.**
  ```asm
 mov i,1
-while i < x
+while i <= x
 ;body of loop
 inc i
 .endw
