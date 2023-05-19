@@ -32,14 +32,14 @@ sub i,2
 
 **B.** jumps
 ```asm
-    mov i,10
-		mov sum,0
+    	 mov i,10
+	 mov sum,0
 repeat01:nop
-		mov eax,sum
-		add eax,i
-		mov sum,eax
-		sub i,2
-		cmp i,0
-		jg repeat01
+	 mov eax,sum
+	 add eax,i
+	 mov sum,eax
+	 sub i,2
+	 cmp i,0
+	 jg repeat01
 endrpt01:nop
 ```
