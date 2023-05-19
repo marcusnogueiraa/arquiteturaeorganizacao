@@ -49,15 +49,11 @@ int main() {
 ## Response
 
 **A.** .while
-```asm
-
-```
+**Essa resposta está no arquivo: <a href="./rs-question-10-A.asm">rs-question-10-A.asm</a></p>**
 
 **B.** .repeat - .until
-```asm
- 
-```
+**Essa resposta está no arquivo: <a href="./rs-question-10-B.asm">rs-question-10-B.asm</a></p>**
+
 **C.** .repeat - .untilcxz
-```asm
- 
-```
+**Essa resposta está no arquivo: <a href="./rs-question-10-C.asm">rs-question-10-C.asm</a></p>**
+
