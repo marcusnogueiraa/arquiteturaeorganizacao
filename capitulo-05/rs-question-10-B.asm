@@ -8,7 +8,7 @@
 		.stack 100h
 scanf		PROTO arg2:Ptr Byte, inputlist:VARARG
 printf		PROTO arg1:Ptr Byte, printlist:VARARG
-			    .data
+		.data
 in1fmt		byte "%d",0
 msg1fmt		byte "Digite o número do termo da sequência de Fibonacci desejado: ", 0Ah,0
 msg2fmt		byte "Termo %d da sequência de Fibonacci: %d", 0Ah, 0
