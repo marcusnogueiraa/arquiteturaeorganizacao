@@ -16,7 +16,6 @@ msg2fmt		byte "Paper misfeed", 0Ah,0
 msg3fmt		byte "Paper tray empty", 0Ah,0
 msg4fmt		byte "Toner low", 0Ah,0
 msg5fmt		byte "Toner empty", 0Ah,0
-
 num		sdword	?
 mask1		sdword  1
 mask2		sdword	1
