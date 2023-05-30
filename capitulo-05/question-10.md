@@ -13,7 +13,7 @@ etc.
 Implement the above function iteratively with your choice (or your instructor’s
 choice) of any of the following:</p>**
 
-> code base
+> base code
 ```c
 #include <stdio.h>
 
