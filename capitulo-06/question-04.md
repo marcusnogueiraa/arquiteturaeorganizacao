@@ -24,7 +24,7 @@ Bit Message
 </br>
 4 Toner empty</p>**
 </br>
-> code base
+> Base code 
 ```c
 #include<stdio.h>
 int main(){
