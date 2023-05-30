@@ -22,5 +22,18 @@ mov i,ecx
 ## Response
 
 ```asm
-; insert response here
+         mov ans,0
+if01:    cmp x,0
+         je endif01
+         mov ecx,1
+while01: cmp ecx,y
+         jg endw01
+         mov eax,ans
+         add eax,x
+         mov ans,eax
+         inc ecx
+         jmp while01
+endw01:  nop
+         mov i,ecx
+endif01: nop
 ```
