@@ -23,7 +23,45 @@ Bit Message
 3 Toner low
 </br>
 4 Toner empty</p>**
-
+</br>
+> code base
+```c
+#include<stdio.h>
+int main(){
+    int num;
+    printf("informe um numero\n");
+    scanf("%d", &num);
+    int mask1 = 0, mask2 = 0, mask3 = 0, mask4 = 0, mask5 = 0;
+    mask1 = 1<<0;
+    mask2 = 1<<1;
+    mask3 = 1<<2;
+    mask4 = 1<<3;
+    mask5 = 1<<4;
+    if(num & mask1){
+        printf("Paper jam\n");
+    }
+    else{
+        if(num & mask2){
+            printf("Paper misfeed\n");
+        }
+        else{
+            if(num & mask3){
+                printf("Paper tray empty\n");
+            }
+            else{
+                if(num & mask4){
+                    printf("Toner low\n");
+                }
+                else{
+                    if(num & mask5){
+                        printf("Toner empty\n");
+                    }
+                }
+            }
+        }
+    }
+}
+```
 
 
 ## Response
