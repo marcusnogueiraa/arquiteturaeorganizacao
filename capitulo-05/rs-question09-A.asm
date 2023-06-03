@@ -1,6 +1,6 @@
 ;
 ;   Building Instructions:
-;   ml /Cx /coff rs-question09.asm /link /SUBSYSTEM:console /out:rs-question09.exe kernel32.lib legacy_stdio_definitions.lib msvcrt.lib
+;   ml /Cx /coff rs-question09-A.asm /link /SUBSYSTEM:console /out:rs-question09-A.exe kernel32.lib legacy_stdio_definitions.lib msvcrt.lib
 ;
         .686
         .model  flat, c
