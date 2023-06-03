@@ -49,7 +49,7 @@ B. Correto.
 C. Incorreto, não deve haver um ponto decimal antes da diretiva if.
 D. Correto.
 E. Correto.
-F. Incorreto, não existe essa diretiva.
+F. Correto.
 G. Correto.
 H. Correto.
 I. Incorreto, não existe essa diretiva.
