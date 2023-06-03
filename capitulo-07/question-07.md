@@ -42,6 +42,14 @@ SUBACC macro operand
 ```
 **D. DIVACC**
 ```asm
-
+DIVACC macro operand
+       mov edx,eax
+       mov eax,0
+       .while(edx >= ebx)
+       sub edx, ebx
+       inc eax
+       .endw
+       endm
+       ;; incompleta
 ```
 
