@@ -25,7 +25,6 @@ INACC macro operand
       pop edx 
       pop ecx
       pop ebx
-      ret
       endm
 ```
 **B. STOREACC**
