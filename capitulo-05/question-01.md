@@ -45,8 +45,7 @@ mov ebx,2
 
 ```
 A. Incorreto, .for e .endfor não existe em MASM.
-B. Correto, mas poderíamos usar um registrador no lugar de i para melhor
-desempenho.
+B. Incorreto, não é possivel utilizar o while para fazer operação entre dois operandos da memória
 C. Correto.
 D. Incorreto, não existe a diretiva ".untiledx".
 E. Incorreto, não existe a diretiva ".do".
