@@ -16,7 +16,7 @@ macro to indicate an error:
 
 **A. INACC**
 ```asm
-INACC macro operand
+INACC macro
       push ebx 
       push ecx
       push edx
