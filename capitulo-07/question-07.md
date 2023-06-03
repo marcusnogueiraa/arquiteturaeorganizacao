@@ -41,14 +41,36 @@ SUBACC macro operand
 ```
 **D. DIVACC**
 ```asm
-DIVACC macro operand
-       mov edx,eax
-       mov eax,0
-       .while(edx >= ebx)
-       sub edx, ebx
-       inc eax
-       .endw
-       endm
-       ;; incompleta
+DIVACC      macro operand
+            push ecx
+            push ebx
+            mov ebx, eax
+            mov eax, 0
+            mov ecx, operand
+            .if ebx < 0
+            mov aux, ebx
+            neg ebx
+            .endif
+            if  operand EQ 0
+            mov eax, 1
+            neg eax
+            mov ebx, eax
+            endif
+            if  operand LT 0
+            neg ecx
+            endif
+            .while ebx >= ecx
+            inc eax
+            sub  ebx, ecx
+            .endw
+            if operand LT 0
+            neg eax
+            endif
+            .if aux < 0
+            neg eax
+            .endif
+            pop ebx
+            pop ecx
+            endm
 ```
 
