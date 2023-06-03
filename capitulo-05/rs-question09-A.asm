@@ -25,8 +25,7 @@ main    proc
         dec numFat
         .endw
         .else
-        mov eax, numFat
-        mov result, eax
+        mov result, 1
         .endif
         INVOKE printf, ADDR msg2fmt, result
 main    endp
