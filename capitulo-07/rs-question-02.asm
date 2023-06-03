@@ -16,11 +16,11 @@ result    sdword 1
 main      proc
           INVOKE printf, ADDR msg0fmt
           INVOKE scanf, ADDR in1fmt, ADDR numFat
-          call power
+          call fat
           INVOKE printf, ADDR in1fmt, result
           ret
 main      endp
-power     proc
+fat       proc
           push eax ; save registers
           push ecx 
           push edx
