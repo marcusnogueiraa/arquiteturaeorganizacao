@@ -16,17 +16,17 @@ macro to indicate an error:
 
 **A. INACC**
 ```asm
-INACC proc
+INACC macro operand
       push ebx 
       push ecx
       push edx
-      INVOKE scanf, ADDR in1fmt, ADDR temp
-      mov eax, temp
+      INVOKE scanf, ADDR in1fmt, ADDR operand
+      mov eax, operand
       pop edx 
       pop ecx
       pop ebx
       ret
-INACC endp
+      endm
 ```
 **B. STOREACC**
 ```asm
