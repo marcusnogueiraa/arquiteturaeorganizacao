@@ -28,8 +28,8 @@ answer = num - total / 32;
 **A.**
 ```asm
 mov eax,num
-sub eax,total
 sar eax,5
+sub eax,total
 mov answer,eax
 ```
 **B.**
