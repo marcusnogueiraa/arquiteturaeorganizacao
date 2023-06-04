@@ -1,6 +1,6 @@
 ;
 ;   Building Instructions:
-;   ml /Cx /coff HelloWorld.asm /link /SUBSYSTEM:console /out:a.exe kernel32.lib legacy_stdio_definitions.lib msvcrt.lib
+;   ml /Cx /coff rs-question-07.asm.asm /link /SUBSYSTEM:console /out:a.exe kernel32.lib legacy_stdio_definitions.lib msvcrt.lib
 ;
             .686
             .model flat,c 
@@ -17,7 +17,7 @@ msg2fmt     byte "informe um numero",0Ah,0
 INACC       macro
             push ecx
             push edx
-            INVOKE  scanf, 	ADDR in1fmt, ADDR aux
+            INVOKE scanf, ADDR in1fmt, ADDR aux
             mov  eax, aux
             pop edx
             pop ecx
@@ -28,7 +28,6 @@ STOREACC    macro operand
 SUBACC      macro operand
             sub  eax, operand
             endm
-
 DIVACC      macro operand
             push ebx
             push edx
