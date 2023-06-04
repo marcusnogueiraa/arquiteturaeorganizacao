@@ -43,9 +43,10 @@ mov result,eax
 ```asm
 mov eax,y
 sal eax,3
-add eax,z
-sar eax,1
 mov x,eax
+mov eax,z
+sar eax,1
+add x,eax
 ```
 **D.**
 ```asm
