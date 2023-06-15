@@ -1,5 +1,7 @@
 # Questão 02 - Capítulo 04
 
+> Correção: 0,3
+
 ## Question
 
 **<p>2. Using MASM directives, write an assembly language code segment to implement the following:</p>**

@@ -1,11 +1,16 @@
 # Questão 04 - Capítulo 04
 
+> Correção: 0,0.
+
 ## Question
 
 **<p>4.  Given the example of the if-then-else-if structure in Problem 2 above, re-implement it using a nested if-then-if structure:</p>**
 
 **<p>A. Use MASM directives.</p>**
 **<p>B. Do not use MASM directives, but rather compares, jumps, and appropriate labels.</p>**
+
+
+> Correção: você não alterou o código para _if-then-if_.
 
 > question-02 code
 ```c

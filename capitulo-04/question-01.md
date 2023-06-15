@@ -1,5 +1,8 @@
 # Questão 01 - Capítulo 04
 
+> Correção: 0,3
+
+
 ## Question
 
 **<p>1. Indicate whether the following statements are syntactically correct or incorrect in MASM. If incorrect, indicate what is wrong with the statement:</p>**
@@ -32,6 +35,7 @@ endif01:  nop
 ```
 
 ## Response
+
 
 ```
 A. Incorreto, utilize "==" para comparação entre dois valores.

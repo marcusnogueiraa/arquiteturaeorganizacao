@@ -1,5 +1,7 @@
 # Questão 03 - Capítulo 04
 
+> Correção: 0,3
+
 ## Question
 
 **<p>3. Convert the following C selection structures to the corresponding assembly language code segments. Do not use MASM directives, but rather only compares, jumps, and appropriate labels (hint: Problem B, use De Morgan’s rules):</p>**
