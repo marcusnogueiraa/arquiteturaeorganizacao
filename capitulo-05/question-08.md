@@ -21,6 +21,8 @@ mov ecx,tempecx
 
 ## Response
 
+> Correção: 0,2
+
 ```asm
             mov ecx,2
 for01:      nop

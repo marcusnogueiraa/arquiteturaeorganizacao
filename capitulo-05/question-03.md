@@ -39,6 +39,8 @@ endwhile06: nop
 
 ## Response
 
+> Correção: 0,1
+
 **A.**
 ```
 executa o body loop três vezes.

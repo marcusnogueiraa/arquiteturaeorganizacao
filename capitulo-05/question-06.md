@@ -14,6 +14,8 @@ for(i=1; i <= n; i++)
 
 ## Response
 
+> Correção: 0,1
+
 **Primeira Implementação**
 ```asm
  mov sum,0

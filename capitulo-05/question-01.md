@@ -43,6 +43,8 @@ mov ebx,2
 
 ## Response
 
+> Correção: 0,1 
+
 ```
 A. Incorreto, .for e .endfor não existe em MASM.
 B. Incorreto, não é possivel utilizar o while para fazer operação entre dois operandos da memória

@@ -18,6 +18,8 @@ i = i-2;
 
 ## Response
 
+> Correção: 0,2
+
 **A.** .repeat - .until
 ```asm
 mov i,10

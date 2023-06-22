@@ -33,6 +33,8 @@ mov i,ecx
 
 ## Response
 
+> Correção: 0,1
+
 ```asm
           mov ans,0
 if01:     cmp y,0

@@ -10,6 +10,8 @@
 
 ## Response
 
+> Correção: 0,1
+
 **A.** .while
 ```asm
 mov edx,eax
