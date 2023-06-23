@@ -1,5 +1,7 @@
 # Questão 01 - Capítulo 06
 
+> Correção: 0,5. Não existe exc, mas a argumentação de poder ser uma variável foi boa.
+
 ## Question
 
 **<p>1. Given the following assembly language statements, indicate whether they are

@@ -1,6 +1,8 @@
 
 # Questão 03 - Capítulo 06
 
+> Correção: 0,5
+
 ## Question
 
 **<p>3. Write a code segment that takes the contents of eax, ebx, ecx, and edx, and

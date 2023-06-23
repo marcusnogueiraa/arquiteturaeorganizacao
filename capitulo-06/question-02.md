@@ -1,5 +1,7 @@
 # Questão 02 - Capítulo 06
 
+> Correção: 0,5
+
 ## Question
 
 **<p>2. Given the following C arithmetic instructions, implement them using arithmetic
