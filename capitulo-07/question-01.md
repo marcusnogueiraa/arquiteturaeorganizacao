@@ -1,5 +1,7 @@
 # Questão 01 - Capítulo 07
 
+> Correção: 0,0. Não existe a diretiva de montagem condicional _elseif_.
+
 ## Question
 
 **<p>1. Given the following assembly language statements and assuming memory locations and labels are properly declared, indicate whether they are syntactically correct or incorrect. If incorrect, indicate what is wrong with the statement:</p>**

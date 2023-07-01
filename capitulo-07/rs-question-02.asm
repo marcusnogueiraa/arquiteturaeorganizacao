@@ -1,4 +1,4 @@
-;
+;   Correção: 0,0. Não monta.
 ;   Building Instructions:
 ;   ml /Cx /coff rs-question-02.asm /link /SUBSYSTEM:console /out:a.exe kernel32.lib legacy_stdio_definitions.lib msvcrt.lib
 ;
