@@ -17,10 +17,10 @@ Repositório para os Exercícios da disciplina "Arquitetura e Organização de C
 - [x] 01 - Variables, Registers, and Data Movement [AP 01]
 - [x] 02 - Input/Output [AP 01]
 - [x] 03 - Arithmetic Instructions [AP 01]
-- [*] 04 - Selection Structures [AP 02]
-- [ ] 05 - Iteration Structures [AP 02]
-- [ ] 06 - Logic, Shifting, Rotating, and Stacks [AP 02]
-- [ ] 07 - Procedures and Macros [AP 02]
+- [x] 04 - Selection Structures [AP 02]
+- [x] 05 - Iteration Structures [AP 02]
+- [x] 06 - Logic, Shifting, Rotating, and Stacks [AP 02]
+- [x] 07 - Procedures and Macros [AP 02]
 - [ ] 08 - Arrays [AP 02]
 - [ ] 09 - Strings [AP 03]
 - [ ] 10 - Selected Machine Language Instructions [AP 03]
@@ -36,8 +36,8 @@ Repositório para os Exercícios da disciplina "Arquitetura e Organização de C
   </tr>
   <tr>
     <td>10.00</td>
+    <td>9.50</td>
     <td>??</td>
-    <td>??</td>
-    <td>3.33*</td>
+    <td>6.50</td>
   </tr>
 </table>
