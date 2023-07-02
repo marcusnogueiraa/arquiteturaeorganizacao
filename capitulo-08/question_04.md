@@ -38,10 +38,10 @@ mov eax,sizeof oarray
 
 ## Response
 ```
-A. 
-B. 
-C. 
-D. 
-E. 
-F. 
+A. 5
+B. 20
+C. 0
+D. 40
+E. 3
+F. 6
 ```
