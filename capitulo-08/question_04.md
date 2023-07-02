@@ -40,7 +40,7 @@ mov eax,sizeof oarray
 ```
 A. 5
 B. 20
-C. 0
+C. 10
 D. 40
 E. 3
 F. 6
