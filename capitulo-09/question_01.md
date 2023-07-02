@@ -33,10 +33,10 @@ loadsb
 
 ## Response
 ```
-A. 
-B. 
-C. 
-D. 
-E. 
-F. 
+A. Errado, o correto seria movsb.
+B. Correto.
+C. Correto.
+D. Correto.
+E. Errado, o correto seria rep stosb.
+F. Errado, o correto seria lodsb.
 ```
