@@ -54,5 +54,5 @@ D. 204
 E. 200
 F. 5
 G. 12
-H. 14
+H. Da erro, a intrução "imul" só pode ser usada com registrador ou memória.
 ```
