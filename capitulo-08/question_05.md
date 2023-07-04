@@ -9,7 +9,7 @@
 
 ## Response
 
-**codgo em C
+**código em C**
 ```c
 #include <stdio.h>
 int main(){
