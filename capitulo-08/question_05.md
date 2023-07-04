@@ -9,7 +9,7 @@
 
 ## Response
 
-**código em C**
+**Código em C**
 ```c
 #include <stdio.h>
 int main(){
@@ -21,3 +21,4 @@ int main(){
     }
 }
 ```
+**Código em MASM: <a href="./rs-question-05.asm">rs-question-05.asm</a></p>**
