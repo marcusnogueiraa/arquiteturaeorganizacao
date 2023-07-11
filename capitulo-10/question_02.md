@@ -32,7 +32,6 @@ C. a b / c * d -
 D. k m n -/ i j * +
 ```
 ### Em assembly
-### Versão pós-fixa
 ```asm
 A.
 B.
