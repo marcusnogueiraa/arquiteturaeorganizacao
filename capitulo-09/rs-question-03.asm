@@ -1,3 +1,5 @@
+; Não está terminada.
+
             .686
             .model flat,c 
             .stack 100h 
