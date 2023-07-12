@@ -1,5 +1,7 @@
 # Questão 04 - Capítulo 08
 
+> Correção: 0,5
+
 ## Question
 
 **<p>4. Given the declarations below, indicate what would be stored in the eax register

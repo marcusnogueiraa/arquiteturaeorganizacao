@@ -1,5 +1,7 @@
 # Questão 02 - Capítulo 08
 
+> Correção: 0,5
+
 ## Question
 
 **<p>2. Given the contents of the following memory location, what is stored in the eax
