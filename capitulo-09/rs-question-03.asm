@@ -1,70 +1,54 @@
-; Não está terminada.
-
+;
+;   Building Instructions:
+;   ml /Cx /coff rs-question-03.asm /link /SUBSYSTEM:console /out:a.exe kernel32.lib legacy_stdio_definitions.lib msvcrt.lib
+;
             .686
-            .model flat,c 
-            .stack 100h 
-scanf       PROTO arg2:Ptr Byte, inputlist:VARARG
-printf      PROTO arg1:Ptr Byte, printlist:VARARG 
+            .model  flat, c
+            .stack  100h
+printf      PROTO   arg1:Ptr Byte, printlist:VARARG
+scanf       PROTO   arg2:Ptr Byte, inputlist:VARARG
             .data
-in1fmt      byte "%d",0
-msg1fmt     byte "E palindromo",0Ah,0
-msg2fmt     byte "Nao e palindromo",0Ah,0
-msg3fmt     byte "%s" ,0
-msg4fmt     byte "Teste",0Ah,0
-
-string      byte "abcdeedcba 1234554321 0987667890 123456789 abcdefghij aeiouuoiea lofr43qwxd 012345678 0123443210 hyrft543we"
-temp        byte 10 dup(?) ,0
-bool        byte ?
-i           sdword 0
-            .code
+msg1fmt     byte  "%s",0Ah, 0
+in1fmt      byte  "%s", 0
+msg1        byte  "Informe a palavra: ", 0
+msg2        byte  "E palindromo",0Ah, 0
+msg3        byte  "Nao e palindromo",0Ah, 0
+string      byte  "abcdeedcba 1234554321 0987667890 123456789 abcdefghij aeiouuoiea lofr43qwxd 012345678 0123443210 hyrft543we"
+lenght      sdword  10
+bool        sdword  0
+var1        sdword  0
+var2        sdword  0
+var3        sdword  0
+.code 
 main        proc
+            lea esi, string
+            lea edi, string+9
             mov eax, 0
-            .while (i < 10)
-             
-                mov bool, 1
-                mov ecx, 10
-                lea esi, string[eax]
-                lea edi, temp
-                cld
-                .repeat
-                    movsb
-                .untilcxz
-                mov ecx, 10
-                mov esi, eax
-                mov edi, 9
-                .repeat
-                    mov al, temp[edi]
-                    mov ah, string[esi]
-                    .if (ah != al)
-                        mov bool, 0
-                    .endif
-                    inc esi
-                    dec edi
-                .untilcxz
-                .if (bool == 1)
-                    push eax
-                    push edx
-                    push ebx
-                    push ecx
-                    INVOKE printf, ADDR msg1fmt
-                    pop ecx
-                    pop ebx
-                    pop edx
-                    pop eax
-                .endif
-                .if (bool == 0)
-                    push eax
-                    push edx
-                    push ebx
-                    push ecx
-                    INVOKE printf, ADDR msg2fmt
-                    pop ecx
-                    pop ebx
-                    pop edx
-                    pop eax
-                .endif
-                add eax, 11
-                inc i
+
+            .while(var1 < 10)
+            mov bool, 0
+            mov ecx, 4
+            .repeat
+            mov al, [edi]
+            mov ah, [esi]
+            .if(al != ah)
+            mov bool, -1
+            .endif
+            inc esi
+            dec edi
+            .untilcxz
+            add esi, 7
+            add edi, 15
+            mov var2, esi
+            mov var3, edi
+            .if(bool <= -1)
+            INVOKE printf, ADDR msg1fmt, ADDR msg3
+            .else
+            INVOKE printf, ADDR msg1fmt, ADDR msg2
+            .endif
+            mov esi, var2
+            mov edi, var3
+            inc var1
             .endw
             ret
 main        endp
