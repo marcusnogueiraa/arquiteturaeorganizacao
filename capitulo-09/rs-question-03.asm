@@ -11,11 +11,10 @@ scanf       PROTO   arg2:Ptr Byte, inputlist:VARARG
 msg1fmt     byte  "%s",0Ah, 0
 in1fmt      byte  "%s", 0
 msg1        byte  "Informe a palavra: ", 0
-msg2        byte  "E palindromo",0Ah, 0
-msg3        byte  "Nao e palindromo",0Ah, 0
-string      byte  "abcdeedcba 1234554321 0987667890 123456789 abcdefghij aeiouuoiea lofr43qwxd 012345678 0123443210 hyrft543we"
-lenght      sdword  10
-bool        sdword  0
+msg2        byte  "E palindromo", 0
+msg3        byte  "Nao e palindromo", 0
+string      byte  "abcdeedcba 1234554321 0987667890 1234567890 abcdefghij aeiouuoiea lofr43qwxd 0123456784 0123443210 hyrft543we"
+bool        sdword  1
 var1        sdword  0
 var2        sdword  0
 var3        sdword  0
@@ -26,13 +25,13 @@ main        proc
             mov eax, 0
 
             .while(var1 < 10)
-            mov bool, 0
+            mov bool, 1
             mov ecx, 4
             .repeat
             mov al, [edi]
             mov ah, [esi]
             .if(al != ah)
-            mov bool, -1
+            mov bool, 0
             .endif
             inc esi
             dec edi
@@ -41,7 +40,7 @@ main        proc
             add edi, 15
             mov var2, esi
             mov var3, edi
-            .if(bool <= -1)
+            .if(bool == 0)
             INVOKE printf, ADDR msg1fmt, ADDR msg3
             .else
             INVOKE printf, ADDR msg1fmt, ADDR msg2
