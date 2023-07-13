@@ -32,9 +32,47 @@ C. a b / c * d -
 D. k m n -/ i j * +
 ```
 ### Em assembly
-```asm
-A.
-B.
-C.
-D.
+**A.**
+ ```asm
+fld  x
+fld  y
+fsub
+fld  z
+fadd
+fstp  answer
+```
+**B.**
+ ```asm
+fld  w
+fld  x
+fadd
+fld  y
+fld  z
+fsub
+fdiv
+fstp  result
+```
+**C.**
+ ```asm
+fld  a
+fld  b
+fdiv
+fld  c
+fmul
+fld  d
+fsub
+fstp  info
+```
+**D.**
+ ```asm
+fld  k
+fld  m
+fld  n
+fsub
+fdiv
+fld  i
+fld  j
+fmul
+fadd
+fstp  data
 ```
