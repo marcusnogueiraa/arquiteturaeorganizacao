@@ -61,5 +61,5 @@ void bubbleSort(int array[], int size) {
 
 ## Response
 
-**Código em MASM (A): <a href="./rs-question-06-a.asm">rs-question-06-a.asm</a></p>**
-**Código em MASM (B): <a href="./rs-question-06-b.asm">rs-question-06-b.asm</a></p>**
+**Código em MASM (A): <a href="./rs-question-06-A.asm">rs-question-06-A.asm</a></p>**
+**Código em MASM (B): <a href="./rs-question-06-B.asm">rs-question-06-B.asm</a></p>**
