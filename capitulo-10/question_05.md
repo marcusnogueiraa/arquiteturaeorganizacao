@@ -45,7 +45,7 @@ int main() {
 int main() {
   long double x, y;
   printf("\n%s", "Enter a long double for x: ");
-  scanf("%Lf", &x);
+  scanf_s("%Lf", &x);
   __asm {
     fld x
     fstp y
