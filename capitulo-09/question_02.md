@@ -42,6 +42,9 @@ stosb
 ```
 
 ## Response
+
+> Correção: 0,2 . Na letra D, _edi_ é 106, assim como na letra E.
+
 ```
 A. ecx = 2, esi=undefined, edi = 103, al = “c”
 B. ecx = undefined, esi = 104, edi = undefined, al = “d”

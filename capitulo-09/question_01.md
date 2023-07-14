@@ -32,6 +32,9 @@ loadsb
 ```
 
 ## Response
+
+> Correção: 0,5
+
 ```
 A. Errado, o correto seria movsb.
 B. Correto.

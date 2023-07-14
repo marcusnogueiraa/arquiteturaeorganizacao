@@ -1,4 +1,4 @@
-;
+;   Correção: 1,0
 ;   Building Instructions:
 ;   ml /Cx /coff rs-question-03.asm /link /SUBSYSTEM:console /out:a.exe kernel32.lib legacy_stdio_definitions.lib msvcrt.lib
 ;
@@ -13,7 +13,7 @@ in1fmt      byte  "%s", 0
 msg1        byte  "Informe a palavra: ", 0
 msg2        byte  "E palindromo", 0
 msg3        byte  "Nao e palindromo", 0
-string      byte  "abcdeedcba 1234554321 0987667890 1234567890 abcdefghij aeiouuoiea lofr43qwxd 0123456784 0123443210 hyrft543we"
+string      byte  "abcdeedcba abcdeedcba abcdeedcba abcdeedcba abcdeedcba abcdeedcba abcdeedcba abcdeedcba abcdeedcba abcdeedcba"
 bool        sdword  1
 var1        sdword  0
 var2        sdword  0
