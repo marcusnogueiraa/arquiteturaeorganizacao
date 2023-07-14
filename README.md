@@ -21,9 +21,9 @@ Repositório para os Exercícios da disciplina "Arquitetura e Organização de C
 - [x] 05 - Iteration Structures [AP 02]
 - [x] 06 - Logic, Shifting, Rotating, and Stacks [AP 02]
 - [x] 07 - Procedures and Macros [AP 02]
-- [ ] 08 - Arrays [AP 03]
-- [ ] 09 - Strings [AP 03]
-- [ ] 10 - Selected Machine Language Instructions [AP 03]
+- [x] 08 - Arrays [AP 03]
+- [x] 09 - Strings [AP 03]
+- [x] 10 - Selected Machine Language Instructions [AP 03]
 
 ## **🏆 Notas da Disciplina**
   
