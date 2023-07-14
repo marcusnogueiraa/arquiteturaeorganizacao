@@ -27,4 +27,4 @@ endif01: nop
 
 ## Response
 
-**Essa resposta está no arquivo: <a href="./rs-question-07.asm">rs-question-06.asm</a></p>**
+**Essa resposta está no arquivo: <a href="./rs-question-07.asm">rs-question-07.asm</a></p>**
