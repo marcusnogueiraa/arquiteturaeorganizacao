@@ -1,5 +1,7 @@
 # Questão 01 - Capítulo 08
 
+> Correção: 0,5
+
 ## Question
 
 **<p>1. Given the following assembly language statements, indicate whether they are

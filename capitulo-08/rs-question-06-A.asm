@@ -1,4 +1,4 @@
-;
+; Correção: 1,0
 ;   Building Instructions:
 ;   ml /Cx /coff rs-question-06-A.asm /link /SUBSYSTEM:console  /out:Out.exe kernel32.lib legacy_stdio_definitions.lib msvcrt.lib
 ;
