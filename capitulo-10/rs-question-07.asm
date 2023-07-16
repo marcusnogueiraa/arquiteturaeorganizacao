@@ -1,3 +1,4 @@
+; Correção: 0,5
 ;
 ;   Building Instructions:
 ;   ml /Cx /coff rs-question-07.asm.asm /link /SUBSYSTEM:console  /out:Out.exe kernel32.lib legacy_stdio_definitions.lib msvcrt.lib
