@@ -1,5 +1,7 @@
 # Questão 05 - Capítulo 10
 
+> Correção: 0,5
+
 ## Question
 
 **<p>5. Given the code using inline assembly in Sect. 10.7.4, rewrite it to work with
