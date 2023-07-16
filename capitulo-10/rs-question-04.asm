@@ -1,4 +1,4 @@
-;
+; Correção: 0,3. O _l_ deve ser maiúsculo na _string_ de formatação.
 ;   Building Instructions:
 ;   ml /Cx /coff rs-question-04.asm /link /SUBSYSTEM:console /out:a.exe kernel32.lib legacy_stdio_definitions.lib msvcrt.lib
 ;
