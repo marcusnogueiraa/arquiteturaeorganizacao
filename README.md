@@ -37,7 +37,7 @@ Repositório para os Exercícios da disciplina "Arquitetura e Organização de C
   <tr>
     <td>10.00</td>
     <td>9.50</td>
-    <td>??</td>
-    <td>6.50</td>
+    <td>9.30</td>
+    <td>9.60</td>
   </tr>
 </table>
