@@ -1,5 +1,7 @@
 # Questão 01 - Capítulo 10
 
+> Correção: 0,5
+
 ## Question
 
 **<p>1. Given the following variables, what are the results in the variable z for each of

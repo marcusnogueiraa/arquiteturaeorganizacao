@@ -1,5 +1,7 @@
 # Questão 02 - Capítulo 10
 
+> Correção: 0,3.
+
 ## Question
 
 **<p>2. Convert the following C-like arithmetic instructions into post-fix form and then
@@ -64,6 +66,9 @@ fsub
 fstp  info
 ```
 **D.**
+
+> Correção: Aqui, pela ordem de avaliação, o _i_ e _j_ seria multiplicados primeiro. 
+
  ```asm
 fld  k
 fld  m
