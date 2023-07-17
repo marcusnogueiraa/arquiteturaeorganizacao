@@ -2,9 +2,9 @@
 
 Repositório para os Exercícios da disciplina "Arquitetura e Organização de Computadores" utilizando Assembly x86 MASM
 
-> <p><b>Aluno:</b> André Alves de Freitas - 540683</p>
-> <p><b>Aluno:</b> Marcus Vinicius Alves Nogueira - 540230</p>
-> <p><b>Professor:</b> João Marcelo Uchôa de Alencar<p>
+> <p><b>Aluno:</b> <a href="https://github.com/AndreAlves-18">André Alves de Freitas - 540683</a></p>
+> <p><b>Aluno:</b> <a href="https://github.com/marcusnogueiraa">Marcus Vinicius Alves Nogueira - 540230</a></p>
+> <p><b>Professor:</b> <a href="https://github.com/joaomarceloalencar">João Marcelo Uchôa de Alencar</a><p>
 
 ## **📓 Sobre o Repositório**
 
@@ -41,3 +41,6 @@ Repositório para os Exercícios da disciplina "Arquitetura e Organização de C
     <td>9.60</td>
   </tr>
 </table>
+
+## **🎈 Observação**
+A grande quantidade de commits foi deviado a escolha de editar e criar diretamente no github os arquivos .MD com os exercicios. Isso foi feito para registrar categoricamente o progresso.
